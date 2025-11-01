@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from requests.models import Response
+import time
 
 headers = {
     "Accept": "image/webp,*/*",
